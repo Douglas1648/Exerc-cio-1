@@ -1,0 +1,59 @@
+/* estilos.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  color: #FFFFF;
+}
+
+.paragrafo {
+  font-size: 5em;
+  color: #0000FF;
+}
+
+p {
+  font-size: 3em;
+  color: blue
+}
+
+button {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 1em;
+  width: 100px;
+  height: 50px;
+}
+
+#titulo {
+  font-size: 3em;
+  color: black;
+}
+
+.titulo {
+  font-size: 6em;
+  color: black;
+}
+
+.principal {
+  background-color: #ccc;
+}
+
+.principal .titulo {
+  font-size: 3em;
+  color:blue;
+}
+
+button:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+/* Adicionando estilo ao parágrafo dentro de um elemento com a classe "conteudo" */
+.conteudo p {
+    font-style: italic;
+}
